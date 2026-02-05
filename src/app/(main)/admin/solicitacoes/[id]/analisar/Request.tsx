@@ -4,7 +4,7 @@ import Code from "@/components/Code";
 import { useScreenType } from "@/hooks/useScreenType";
 import { updateGuidelineStatus } from "@/routes/guidelines-requests";
 import { Guideline } from "@/types/guideline";
-import { Page } from "@/types/page";
+import { type Page } from "@/types/page";
 import imageKitLoader from "@/utils/image-kit-loader";
 import Image from "next/image";
 import { useRouter } from "next/navigation";

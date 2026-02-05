@@ -7,7 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import useErrors from "@/hooks/useErrors";
 import Errors from "@/components/Errors";
 import { Project } from "@/types/project";
-import { Page } from "@/types/page";
+import { type Page } from "@/types/page";
 import { ChangeEvent, useEffect, useMemo, useState } from "react";
 import { useCart } from "@/context/cart";
 import Link from "next/link";

@@ -20,7 +20,7 @@ import { Guideline } from "@/types/guideline";
 import useErrors from "@/hooks/useErrors";
 import Errors from "@/components/Errors";
 import { useScreenType } from "@/hooks/useScreenType";
-import { Page } from "@/types/page";
+import { type Page } from "@/types/page";
 import { createGuideline, updateGuideline } from "@/routes/guidelines";
 
 type AddEditGuidelineProps = Page & {
